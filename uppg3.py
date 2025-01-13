@@ -19,8 +19,8 @@
 # 2b
 pris = 2000
 procent_sats = input("Ange procent-sats (tex: 10) ")
-procent = int(procent_sats)
-rabatt_i_kr = int(pris*(procent/100))
+procent = float(procent_sats)
+rabatt_i_kr = float(pris*(procent/100))
 #print(rabatt_i_kr)
 slut_pris = pris - rabatt_i_kr
 print(procent,"%" + ", som är", rabatt_i_kr, "kr")
