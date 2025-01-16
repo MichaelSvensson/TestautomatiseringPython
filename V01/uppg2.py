@@ -1,5 +1,6 @@
-# x = 100  biljettpris
-# y = 200   pengar på fickan
+# Punkt 2
+# x = 100  # biljettpris
+# y = 200  # pengar på fickan
 # print("Det blir " + (y - x) " kronor över.")
 # z = 200 - 100 / 2
 # print("Hälften är: " + z)

@@ -1,6 +1,8 @@
-print("Hello World!")
-print("Hi Michael")
-print("This program was made by Michael")
+# Uppgift 1
+print("Hello World")
+print("This program was made of Michael")
+print("--------------------------------")
+
 
 # Variabler
 # greeting = "Good morning"
