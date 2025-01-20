@@ -10,9 +10,11 @@ x = input("Ange vilken medelhastighet (km/tim), du uppskattar hölls mellan Stoc
 if x.isnumeric():
     v = float(x)
     t = (470000 * 3.6) / v
-    print(f"Det tar: {t}, att köra {s} meter mellan Stockholm och Göteborg om man håller en medelhastighet av {v} km/tim.")
+    # Omvandla till timmar
+    t = ((470000 * 3.6) / v)/3600
+    print(f"Det tar: {t} timmar, att köra {s} meter mellan Stockholm och Göteborg om man håller en medelhastighet av {v} km/tim.")
 else:
-    print("Endast siffror är tillåtet att mata in")
+    print("Endast heltal är tillåtet att mata in")
 
 
 
