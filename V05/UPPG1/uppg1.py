@@ -1,3 +1,4 @@
+'''
 1 Vilka ekvivalensklasser har uttrycken?
 
 1a. x > 100	
@@ -30,3 +31,4 @@ Klass 2: {5, 6, 7, 8, 9} (5 <= x < 10)
 Klass 3: {10, 11, 12, 13, 14} (10 <= x < 15)
 Klass 4: {15, 16, 17, ...} (x >= 15)
 
+'''
